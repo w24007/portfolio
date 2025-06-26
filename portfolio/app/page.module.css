@@ -1,0 +1,48 @@
+/* List 1 - app/page.module.css */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heroImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 850px) {
+  .hide1 {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .hide2 {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+  .hide3 {
+    display: none;
+  }
+}
