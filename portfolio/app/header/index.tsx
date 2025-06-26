@@ -58,6 +58,7 @@ export default function Menu() {
             alt="廣告"
             width={600}
             height={400}
+            className={styles.hide}
             style={{
               width: "100%",
               borderRadius: "12px",

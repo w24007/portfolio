@@ -38,3 +38,9 @@
 .navLinks a:hover {
   color: #0070f3;
 }
+
+@media (max-width: 850px) {
+  .hide {
+    display: none;
+  }
+}
